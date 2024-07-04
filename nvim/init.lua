@@ -32,5 +32,5 @@ vim.keymap.set('n', '<C-j>', ':wincmd j<CR>', {})
 vim.keymap.set('n', '<C-k>', ':wincmd k<CR>', {})
 vim.keymap.set('n', '<C-l>', ':wincmd l<CR>', {})
 
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle reveal left<CR>', {})
+vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle reveal right<CR>', {})
 
