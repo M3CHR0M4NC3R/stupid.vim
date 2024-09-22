@@ -13,7 +13,7 @@ return {
       ensure_installed = {
       --https://github.com/williamboman/mason-lspconfig.nvim
       --contains a list of all lsp servers in case you want to add more
-      "lua_ls", "clangd", "gradle_ls", "html", "jdtls", "basedpyright", "bashls"
+      "lua_ls", "clangd", "gradle_ls", "html", "jdtls", "basedpyright", "bashls", "ts_ls"
       }
    })
    end
@@ -28,7 +28,11 @@ return {
       lspconfig.lua_ls.setup({})
       lspconfig.clangd.setup({})
       lspconfig.gradle_ls.setup({})
+      lspconfig.html.setup({})
       lspconfig.jdtls.setup({})
+      lspconfig.basedpyright.setup({})
+      lspconfig.bashls.setup({})
+      lspconfig.ts_ls.setup({})
    end
    }
 }
